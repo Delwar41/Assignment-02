@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Poppins', sans-serif;;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:#3b3b3b
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.header{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.categories{
+    margin:70px 0;
+}
+.col-3{
+    flex-basis:30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    box-shadow: 5px 10px 5px gainsboro;
+    border-radius: 5%;
+    height: 480px;
+   
+    
+}
+.col-3 img{
+    width: 80%;
+    background-color: #F1F1F1;
+    border-radius: 10%;
+}
+.col-3 button{
+    background-color: #3949d6;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+.small-container{
+    max-width:1080px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title{
+    margin: 0 auto 50px;
+    position: relative;
+    line-height: 50px;
+    color:#363958;
+    font-size: 35px;
+}
+.textcolor{
+    color:#363958;
+}
+.price{
+    color:#FA804C;
+}
+.p-highlight{
+    color:#3E3E3E;
+}
+.best-shoe{
+    background-color: #FFF9F4;
+    margin-top:60px;
+    padding:30px 0;
+}
+.best-shoe .col-2 img{
+    padding:60px;
+}
+.h1-highlight{
+    margin-left: 70%;
+}
+.nike-shoe{
+    color:#FA804C;
+}
+.run-2{
+    color:#363958;
+}
+.best-shoe button{
+    background-color: #3949d6;
+    color:white;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+.last-part{
+    width:80%;
+    margin:80px auto;
+}
+.ro{
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+.icon-feauters img{
+    width: 15%;
+}
+.feature-img{
+    width:50% ;
+    margin:auto;
+    position:relative;
+    overflow: hidden;
+}
